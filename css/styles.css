@@ -41,3 +41,87 @@ p {
     text-align: center;
     color: #666;
 }
+
+.HoennPokedex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.scrollButton-Up {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    font-size: 24px;
+}
+
+.scrollButton-Down {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    font-size: 24px;
+}
+
+.scrollButton-Up:hover {
+    background-color: #555;
+}
+
+.scrollButton-Down:hover {
+    background-color: #555;
+}
+
+.listHoenn{
+    width: 25%;
+    height: 650px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+
+.listHoenn::-webkit-scrollbar {
+    display: none;
+}
+
+.listHoenn li {
+    border-bottom: 1px solid gray;
+    background-size: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: inherit;
+}
+
+.listHoenn li:hover {
+    background-color: #ddd;
+}
+
+.listHoenn li a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.listHoenn li a:hover {
+    background-color: #ddd;
+    text-decoration: underline;
+}
+
+
+.pokemonDetails {
+    width: 70%;
+    text-align: center;
+}
+
+#pokemonImage {
+    width: 300px;
+    height: auto;
+}
