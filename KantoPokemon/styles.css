@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #fff;
+    color: #282828;
+    background-image: linear-gradient(
+            115deg,
+            transparent 50%,
+            #fe4d3e 50% 58%,
+            #fa7246 58% 100%
+        ),
+        radial-gradient(
+            circle at 20% 70%,
+            rgba(239, 208, 234, 0.9),
+            rgb(234, 201, 242, 0.6),
+            rgba(231, 238, 197, 0.6),
+            rgb(205, 240, 219, 0.6),
+            rgb(231, 237, 245, 0.6)
+        );
+    min-height: 100vh;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    --offset: 62.7%;
+    background-image: linear-gradient(
+        115deg,
+        rgba(0, 0, 0, 0.15) var(--offset),
+        rgb(53, 53, 53) var(--offset)
+    );
+    margin-top: 10px;
+}
+.header h1 {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.header p {
+    font-size: 1.5rem;
+    color: white;
+    padding-right: 13%;
+}
+
+.pokelist{
+    font: 1.5rem;
+    padding-right: 15%;
+}
+
+#next{
+    width: 50x;
+    height: 50px;
+    color: #fe4d3e;
+    font-size:1em;
+    background-color: black;
+}
